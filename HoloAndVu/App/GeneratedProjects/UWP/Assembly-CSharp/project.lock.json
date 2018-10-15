@@ -15839,12 +15839,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\David Green\\.nuget\\packages\\",
-      "outputPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+      "outputPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\David Green\\AppData\\Roaming\\NuGet\\NuGet.Config",

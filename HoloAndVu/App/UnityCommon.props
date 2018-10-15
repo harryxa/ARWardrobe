@@ -1,8 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <UnityWSASolutionName>HoloAndVu</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\ARWardrobe\VuforiaAndHoloToolKit\HoloAndVu\App\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\ARWardrobe\VuforiaAndHoloToolKit\HoloAndVu\</UnityProjectDir>
+        <UnityWSASolutionDir>C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>

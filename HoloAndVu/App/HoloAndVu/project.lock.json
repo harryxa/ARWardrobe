@@ -15914,12 +15914,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\HoloAndVu\\HoloAndVu.csproj",
+      "projectUniqueName": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\HoloAndVu\\HoloAndVu.csproj",
       "projectName": "HoloAndVu",
-      "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\HoloAndVu\\HoloAndVu.csproj",
-      "projectJsonPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\HoloAndVu\\project.json",
+      "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\HoloAndVu\\HoloAndVu.csproj",
+      "projectJsonPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\HoloAndVu\\project.json",
       "packagesPath": "C:\\Users\\David Green\\.nuget\\packages\\",
-      "outputPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\HoloAndVu\\obj\\",
+      "outputPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\HoloAndVu\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\David Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -15932,8 +15932,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\ARWardrobe\\VuforiaAndHoloToolKit\\ARWardrobe\\HoloAndVu\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }
