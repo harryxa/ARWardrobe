@@ -14,8 +14,7 @@ public class Hotspot : MonoBehaviour
         //Debug.Log("Trigger Works");
         if (OnEntered != null && other.CompareTag("MainCamera"))
         {
-            OnEntered();
-            
+            OnEntered();            
         }
     }
 
