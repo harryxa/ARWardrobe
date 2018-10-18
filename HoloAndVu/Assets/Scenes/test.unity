@@ -699,8 +699,8 @@ MonoBehaviour:
   InstructionTextMesh: {fileID: 1951888489}
   FloorPrefab: {fileID: 4581923966576856, guid: b8f2ae71090d0f7428b6db6e0209f570,
     type: 2}
-  WallPrefab: {fileID: 0}
-  SurfacePrefag: {fileID: 0}
+  WallPrefab: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  SurfacePrefag: {fileID: 400006, guid: 756b0c574f380324a85262e736c0418b, type: 3}
 --- !u!1 &999447967
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +764,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 8
+  m_Radius: 2.71
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &999447970
 MeshFilter:
@@ -780,7 +780,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 999447967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.12, y: 0.88, z: -7.43}
+  m_LocalPosition: {x: 0.12, y: 0.88, z: -3.32}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 843566517}
@@ -1160,8 +1160,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1332709781}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119999886, y: 0.88, z: -3.9800005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.119999886, y: 0.88, z: -2.57}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 334783725}
   m_RootOrder: 1
