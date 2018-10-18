@@ -6,9 +6,11 @@ using UnityEngine;
 public class ScanManager : MonoBehaviour, IInputClickHandler
 {
     public TextMesh InstructionTextMesh;
-    //public Transform FloorPrefab;
     public Transform WallPrefab;
+    public Transform FloorPrefab;
     //public Transform SurfacePrefab;
+
+    public int test = 0;
 
     // Use this for initialization
     void Start()
@@ -26,9 +28,12 @@ public class ScanManager : MonoBehaviour, IInputClickHandler
         }
         else if (SpatialUnderstanding.Instance.ScanState == SpatialUnderstanding.ScanStates.Done)
         {
-            //InstanciateObjectOnFloor();
+            InstanciateObjectOnFloor();
             //InstanciateObjectOnSurface();
             InstanciateObjectOnWall();
+
+            InstanciateObjectOnFloor2();            
+            InstanciateObjectOnWall2();
         }
     }
 
@@ -77,31 +82,33 @@ public class ScanManager : MonoBehaviour, IInputClickHandler
         SpatialUnderstanding.Instance.RequestFinishScan();
     }
 
-    //private void InstanciateObjectOnFloor()
-    //{
-    //    const int QueryResultMaxCount = 512;
+    public void InstanciateObjectOnFloor()
+    {
+        const int QueryResultMaxCount = 512;
 
-    //    SpatialUnderstandingDllTopology.TopologyResult[] _resultsTopology = new SpatialUnderstandingDllTopology.TopologyResult[QueryResultMaxCount];
+        SpatialUnderstandingDllTopology.TopologyResult[] _resultsTopology = new SpatialUnderstandingDllTopology.TopologyResult[QueryResultMaxCount];
 
-    //    var minLengthFloorSpace = 0.25f;
-    //    var minWidthFloorSpace = 0.25f;
+        var minLengthFloorSpace = 0.25f;
+        var minWidthFloorSpace = 0.25f;
 
-    //    var resultsTopologyPtr = SpatialUnderstanding.Instance.UnderstandingDLL.PinObject(_resultsTopology);
-    //    var locationCount = SpatialUnderstandingDllTopology.QueryTopology_FindPositionsOnFloor(minLengthFloorSpace, minWidthFloorSpace, _resultsTopology.Length, resultsTopologyPtr);
+        var resultsTopologyPtr = SpatialUnderstanding.Instance.UnderstandingDLL.PinObject(_resultsTopology);
+        var locationCount = SpatialUnderstandingDllTopology.QueryTopology_FindPositionsOnFloor(minLengthFloorSpace, minWidthFloorSpace, _resultsTopology.Length, resultsTopologyPtr);
 
-    //    if (locationCount > 0)
-    //    {
-    //        Instantiate(this.FloorPrefab, _resultsTopology[0].position, Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
+        if (locationCount > 0)
+        {
+            Instantiate(this.WallPrefab, 
+                _resultsTopology[0].position, 
+                Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
 
-    //        this.InstructionTextMesh.text = "Placed the hologram";
-    //    }
-    //    else
-    //    {
-    //        this.InstructionTextMesh.text = "I can't found the enough space to place the hologram.";
-    //    }
-    //}
+            //this.InstructionTextMesh.text = "Placed the hologram on the floor";
+        }
+        else
+        {
+            this.InstructionTextMesh.text = "I can't found the enough space to place the hologram on the floor.";
+        }
+    }
 
-    private void InstanciateObjectOnWall()
+    public void InstanciateObjectOnWall()
     {
         const int QueryResultMaxCount = 512;
 
@@ -113,18 +120,79 @@ public class ScanManager : MonoBehaviour, IInputClickHandler
         var minFacingClearance = 0.1f;
 
         var resultsTopologyPtr = SpatialUnderstanding.Instance.UnderstandingDLL.PinObject(_resultsTopology);
+
         var locationCount = SpatialUnderstandingDllTopology.QueryTopology_FindPositionsOnWalls(
             minHeightOfWallSpace, minWidthOfWallSpace, minHeightAboveFloor, minFacingClearance,
             _resultsTopology.Length, resultsTopologyPtr);
 
         if (locationCount > 0)
         {
-            Instantiate(this.WallPrefab,
-                _resultsTopology[0].position,
+            Instantiate(this.WallPrefab, 
+                _resultsTopology[0].position, 
                 Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
+           
+        }
+        else
+        {
+            this.InstructionTextMesh.text = "I can't found the enough space to place the hologram on the Wall.";
         }
     }
 
+    public void InstanciateObjectOnFloor2()
+    {
+        const int QueryResultMaxCount = 512;
+
+        SpatialUnderstandingDllTopology.TopologyResult[] _resultsTopology = new SpatialUnderstandingDllTopology.TopologyResult[QueryResultMaxCount];
+
+        var minLengthFloorSpace = 0.25f;
+        var minWidthFloorSpace = 0.25f;
+
+        var resultsTopologyPtr = SpatialUnderstanding.Instance.UnderstandingDLL.PinObject(_resultsTopology);
+        var locationCount = SpatialUnderstandingDllTopology.QueryTopology_FindPositionsOnFloor(minLengthFloorSpace, minWidthFloorSpace, _resultsTopology.Length, resultsTopologyPtr);
+
+        if (locationCount > 0)
+        {
+            Instantiate(this.FloorPrefab,
+                _resultsTopology[0].position,
+                Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
+
+            //this.InstructionTextMesh.text = "Placed the hologram on the floor";
+        }
+        else
+        {
+            this.InstructionTextMesh.text = "I can't found the enough space to place the hologram on the floor.";
+        }
+    }
+
+    public void InstanciateObjectOnWall2()
+    {
+        const int QueryResultMaxCount = 512;
+
+        SpatialUnderstandingDllTopology.TopologyResult[] _resultsTopology = new SpatialUnderstandingDllTopology.TopologyResult[QueryResultMaxCount];
+
+        var minWidthOfWallSpace = 0.1f;
+        var minHeightAboveFloor = 1f;
+        var minHeightOfWallSpace = 1f;
+        var minFacingClearance = 0.1f;
+
+        var resultsTopologyPtr = SpatialUnderstanding.Instance.UnderstandingDLL.PinObject(_resultsTopology);
+
+        var locationCount = SpatialUnderstandingDllTopology.QueryTopology_FindPositionsOnWalls(
+            minHeightOfWallSpace, minWidthOfWallSpace, minHeightAboveFloor, minFacingClearance,
+            _resultsTopology.Length, resultsTopologyPtr);
+
+        if (locationCount > 0)
+        {
+            Instantiate(this.FloorPrefab,
+                _resultsTopology[0].position,
+                Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
+
+        }
+        else
+        {
+            this.InstructionTextMesh.text = "I can't found the enough space to place the hologram on the Wall.";
+        }
+    }
     //private void InstanciateObjectOnSurface()
     //{
     //    const int QueryResultMaxCount = 512;
@@ -142,9 +210,13 @@ public class ScanManager : MonoBehaviour, IInputClickHandler
 
     //    if (locationCount > 0)
     //    {
-    //        Instantiate(this.SurfacePrefab,
+    //        Instantiate(this.WallPrefab,
     //            _resultsTopology[0].position,
     //            Quaternion.LookRotation(_resultsTopology[0].normal, Vector3.up));
+    //    }
+    //    else
+    //    {
+    //        this.InstructionTextMesh.text = "I can't found the enough space to place the hologram on the .";
     //    }
     //}
 }
