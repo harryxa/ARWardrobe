@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - AudioManager
+  - MusicSource
+  - Becs
+  - Lipstick
+  - Dress
   layers:
   - Default
   - TransparentFX

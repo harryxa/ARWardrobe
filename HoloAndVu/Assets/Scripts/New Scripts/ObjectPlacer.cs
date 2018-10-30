@@ -89,10 +89,10 @@ public class ObjectPlacer : MonoBehaviour
     //    //return queries;
     //}
 
-    private int _placedSquareBuilding;
-    private int _placedTallBuilding;
+    //private int _placedSquareBuilding;
+    //private int _placedTallBuilding;
     private int _placedWideBuilding;
-    private int _placedTree;
+    //private int _placedTree;
 
     private void ProcessPlacementResults()
     {
