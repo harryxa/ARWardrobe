@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-30T15:28:22.673</Modified>
+      <Modified>2018-11-05T13:25:57.365</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\bin\x86\Release\HoloAndVu.exe">
       <PackagePath>entrypoint\HoloAndVu.exe</PackagePath>
-      <Modified>2018-10-30T15:28:06.789</Modified>
+      <Modified>2018-11-05T13:25:41.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David Green\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-10-30T15:27:25.609</Modified>
+      <Modified>2018-11-05T13:24:35.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -587,15 +587,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-10-30T15:26:39.409</Modified>
+      <Modified>2018-11-05T13:23:50.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-10-30T15:26:35.943</Modified>
+      <Modified>2018-11-05T13:23:47.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-10-30T15:26:34.288</Modified>
+      <Modified>2018-11-05T13:23:45.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -603,43 +603,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-10-30T15:26:39.409</Modified>
+      <Modified>2018-11-05T13:23:50.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-10-30T15:26:36.069</Modified>
+      <Modified>2018-11-05T13:23:47.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2018-10-30T15:26:36.393</Modified>
+      <Modified>2018-11-05T13:23:47.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-10-30T15:26:39.154</Modified>
+      <Modified>2018-11-05T13:23:50.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-10-30T15:26:34.273</Modified>
+      <Modified>2018-11-05T13:23:45.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2018-10-30T15:26:36.393</Modified>
+      <Modified>2018-11-05T13:23:47.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-10-30T15:26:39.151</Modified>
+      <Modified>2018-11-05T13:23:50.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-10-30T15:27:25.569</Modified>
+      <Modified>2018-11-05T13:24:35.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-10-30T15:27:25.569</Modified>
+      <Modified>2018-11-05T13:24:35.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2018-10-30T15:26:39.154</Modified>
+      <Modified>2018-11-05T13:23:50.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
@@ -664,239 +664,239 @@
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-30T15:28:07.893</Modified>
+      <Modified>2018-11-05T13:25:42.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.201</Modified>
+      <Modified>2018-11-05T13:25:53.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.219</Modified>
+      <Modified>2018-11-05T13:25:53.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.241</Modified>
+      <Modified>2018-11-05T13:25:53.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.261</Modified>
+      <Modified>2018-11-05T13:25:53.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.299</Modified>
+      <Modified>2018-11-05T13:25:53.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.310</Modified>
+      <Modified>2018-11-05T13:25:53.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.328</Modified>
+      <Modified>2018-11-05T13:25:53.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.343</Modified>
+      <Modified>2018-11-05T13:25:53.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.369</Modified>
+      <Modified>2018-11-05T13:25:53.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.383</Modified>
+      <Modified>2018-11-05T13:25:53.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.409</Modified>
+      <Modified>2018-11-05T13:25:53.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.429</Modified>
+      <Modified>2018-11-05T13:25:53.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.448</Modified>
+      <Modified>2018-11-05T13:25:53.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.462</Modified>
+      <Modified>2018-11-05T13:25:53.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.482</Modified>
+      <Modified>2018-11-05T13:25:53.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.503</Modified>
+      <Modified>2018-11-05T13:25:53.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.519</Modified>
+      <Modified>2018-11-05T13:25:53.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.539</Modified>
+      <Modified>2018-11-05T13:25:53.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.562</Modified>
+      <Modified>2018-11-05T13:25:53.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.573</Modified>
+      <Modified>2018-11-05T13:25:53.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.589</Modified>
+      <Modified>2018-11-05T13:25:53.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.603</Modified>
+      <Modified>2018-11-05T13:25:53.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.632</Modified>
+      <Modified>2018-11-05T13:25:53.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.649</Modified>
+      <Modified>2018-11-05T13:25:53.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.669</Modified>
+      <Modified>2018-11-05T13:25:53.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.699</Modified>
+      <Modified>2018-11-05T13:25:53.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.718</Modified>
+      <Modified>2018-11-05T13:25:53.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.732</Modified>
+      <Modified>2018-11-05T13:25:53.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.979</Modified>
+      <Modified>2018-11-05T13:25:54.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.993</Modified>
+      <Modified>2018-11-05T13:25:54.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.023</Modified>
+      <Modified>2018-11-05T13:25:54.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.042</Modified>
+      <Modified>2018-11-05T13:25:54.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.059</Modified>
+      <Modified>2018-11-05T13:25:54.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.082</Modified>
+      <Modified>2018-11-05T13:25:54.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.109</Modified>
+      <Modified>2018-11-05T13:25:54.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.131</Modified>
+      <Modified>2018-11-05T13:25:54.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.152</Modified>
+      <Modified>2018-11-05T13:25:54.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.178</Modified>
+      <Modified>2018-11-05T13:25:54.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.192</Modified>
+      <Modified>2018-11-05T13:25:54.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.211</Modified>
+      <Modified>2018-11-05T13:25:54.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.232</Modified>
+      <Modified>2018-11-05T13:25:54.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-10-30T15:27:02.228</Modified>
+      <Modified>2018-11-05T13:24:13.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.243</Modified>
+      <Modified>2018-11-05T13:25:54.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.273</Modified>
+      <Modified>2018-11-05T13:25:54.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.289</Modified>
+      <Modified>2018-11-05T13:25:54.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.349</Modified>
+      <Modified>2018-11-05T13:25:54.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.393</Modified>
+      <Modified>2018-11-05T13:25:54.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.439</Modified>
+      <Modified>2018-11-05T13:25:55.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.511</Modified>
+      <Modified>2018-11-05T13:25:55.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.531</Modified>
+      <Modified>2018-11-05T13:25:55.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.553</Modified>
+      <Modified>2018-11-05T13:25:55.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.572</Modified>
+      <Modified>2018-11-05T13:25:55.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Vuforia.UnityExtensions.dll">
       <PackagePath>Vuforia.UnityExtensions.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.632</Modified>
+      <Modified>2018-11-05T13:25:55.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.653</Modified>
+      <Modified>2018-11-05T13:25:55.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.749</Modified>
+      <Modified>2018-11-05T13:25:55.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2018-10-30T15:28:20.793</Modified>
+      <Modified>2018-11-05T13:25:55.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-10-30T15:28:19.171</Modified>
+      <Modified>2018-11-05T13:25:53.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ARWardrobe\VuforiaAndHoloToolKit\ARWardrobe\HoloAndVu\App_InstantiateNewAudio\HoloAndVu\bin\x86\Release\Core\HoloAndVu.exe">
       <PackagePath>HoloAndVu.exe</PackagePath>
-      <Modified>2018-10-30T15:28:22.658</Modified>
+      <Modified>2018-11-05T13:25:57.361</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

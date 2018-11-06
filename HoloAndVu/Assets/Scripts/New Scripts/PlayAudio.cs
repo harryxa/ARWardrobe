@@ -44,8 +44,7 @@ public class PlayAudio : MonoBehaviour
             m_AudioSource.clip = m_AudioManager.GetSelectedAudio();
             musicSource.volume = loweredMusicVolume;
             soundPlayed = true;
-            m_AudioSource.Play();
-            
+            m_AudioSource.Play();            
         }
     }
 
@@ -56,14 +55,20 @@ public class PlayAudio : MonoBehaviour
         {
             if(incrementAudio == true)
             {
+               
                 m_AudioManager.IncrementAudioNumber();
                 incrementAudio = false;
+                musicSource.volume = 1f;
+                soundPlayed = false;
+
             }
 
             musicSource.Stop();
         }
-
     }
 
+    private void IncrementAudio()
+    {
 
+    }
 }

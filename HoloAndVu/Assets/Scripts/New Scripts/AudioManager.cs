@@ -14,9 +14,12 @@ public class AudioManager : MonoBehaviour
 
     //list of hotspots in the scene, when hotspoty inits it adds to list
     public List<GameObject> hotSpots = new List<GameObject>();
+    public AudioSource IntroOutroMusicSource;
+    public AudioSource IntroOutroAudioSource;
 
     //int to indicate which audio from list to play
     int audioNumber;
+    private bool introPlayed = false;
 
     public enum ItemChoice
     {
@@ -35,8 +38,34 @@ public class AudioManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        ItemSelect();
-        ActivateHotSpot();        
+        //select an Item, Play first Audio for Item
+
+        if(introPlayed == false)
+        {
+            IntroOutroMusicSource.volume = 1f;
+            if(!IntroOutroMusicSource.isPlaying)
+                IntroOutroMusicSource.Play();
+            ItemSelect();
+        }
+        if(IntroOutroAudioSource.isPlaying == false && introPlayed == true)
+        {
+            IntroOutroMusicSource.Stop();
+
+            if (audioNumber < selectedAudio.Count)
+                ActivateHotSpot();
+            else
+            {
+                //return everything to start
+                introPlayed = false;
+                audioNumber = 0;
+                itemChoice = ItemChoice.NONE;
+                selectedAudio = null;
+                for (int i = 0; i < hotSpots.Count; i++)
+                {
+                    hotSpots[i].SetActive(false);
+                }
+            }
+        }
     }
 
 
@@ -50,27 +79,38 @@ public class AudioManager : MonoBehaviour
 
             case ItemChoice.DRESS:
                 if (selectedAudio != dressAudio)
+                {
                     selectedAudio = dressAudio;
+                    //audioNumber = 0;
+                    PlayFirstClip();
+                }
                 break;
 
             case ItemChoice.BECS:
                 if (selectedAudio != becsAudio)
+                {
                     selectedAudio = becsAudio;
+                    //audioNumber = 0;
+                    PlayFirstClip();
+                }
                 break;
         }
     }
-    
+
+    private void PlayFirstClip()
+    {
+        IntroOutroMusicSource.volume = 0.2f;
+        IntroOutroAudioSource.clip = selectedAudio[audioNumber];
+        IntroOutroAudioSource.Play();
+        IncrementAudioNumber();
+        introPlayed = true;
+    }
+
     //all hotspots are initialised at start unactive
     //this activates them one at a time
     private void ActivateHotSpot()
-    {
-        for (int i = 0; i < hotSpots.Count; i++)
-        {
-            if (!hotSpots[i].activeSelf && audioNumber == i)
-            {
-                hotSpots[i].SetActive(true);
-            }
-        }
+    {                
+        hotSpots[audioNumber - 1].SetActive(true);
     }    
 
     public AudioClip GetSelectedAudio()
@@ -80,7 +120,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip GetSelectedMusicAudio()
     {
-        return musicAudio[audioNumber];
+        return musicAudio[audioNumber - 1];
     }
 
     //incremented when leaving a hotspot

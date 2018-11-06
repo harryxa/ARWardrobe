@@ -17,13 +17,16 @@ public class ItemSelecter : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        if (gameObject.tag == "Dress")
+        if(m_AudioManager.itemChoice == AudioManager.ItemChoice.NONE)
         {
-            m_AudioManager.itemChoice = AudioManager.ItemChoice.DRESS;
-        }
-        else if (gameObject.tag == "Becs")
-        {
-            m_AudioManager.itemChoice = AudioManager.ItemChoice.BECS;
+            if (gameObject.tag == "Dress")
+            {
+                m_AudioManager.itemChoice = AudioManager.ItemChoice.DRESS;
+            }
+            else if (gameObject.tag == "Becs")
+            {
+                m_AudioManager.itemChoice = AudioManager.ItemChoice.BECS;
+            }
         }
     }
 }
