@@ -5,10 +5,10 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-HoloAndVu.sln: 0C02D98B55CEF84641592772CD1C58E9
+HoloAndVu.sln: 6EAFA69EF6B4600DA869F55B68EB35F1
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 HoloAndVu\App.cs: AB9E08181BF016FCD8E984E2A05C6801
-HoloAndVu\HoloAndVu.csproj: D140B39682C4EA7FF4C3C15043B2CE49
+HoloAndVu\HoloAndVu.csproj: 50874D7B0BA6659716C8C7D91BA07A94
 HoloAndVu\HoloAndVu.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 HoloAndVu\Package.appxmanifest: C07BBAA73471FE4F488A9EEA00D9E214
 HoloAndVu\project.json: 1D02BC64BAC0D041019673A1C4C51737
