@@ -55,8 +55,7 @@ public class PlayAudio : MonoBehaviour
         if (other.tag == "MainCamera" && soundPlayed == true && m_AudioManager.itemChoice != AudioManager.ItemChoice.NONE)
         {
             if(incrementAudio == true)
-            {
-               
+            {               
                 m_AudioManager.IncrementAudioNumber();
                 incrementAudio = false;
                 musicSource.volume = 1f;
@@ -67,10 +66,5 @@ public class PlayAudio : MonoBehaviour
 
             musicSource.Stop();
         }
-    }
-
-    private void IncrementAudio()
-    {
-
     }
 }

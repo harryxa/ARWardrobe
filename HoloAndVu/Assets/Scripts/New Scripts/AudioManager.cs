@@ -7,19 +7,19 @@ public class AudioManager : MonoBehaviour
     //list of all audio for selected item
     public List<AudioClip> dressAudio = new List<AudioClip>();
     public List<AudioClip> becsAudio = new List<AudioClip>();
-
-
-    public List<AudioClip> musicAudio = new List<AudioClip>();
     public List<AudioClip> selectedAudio = new List<AudioClip>();
 
-    //list of hotspots in the scene, when hotspoty inits it adds to list
+    public List<AudioClip> musicAudio = new List<AudioClip>();
+
+    //list of hotspots in the scene, when hotspot inits it adds to list
     public List<GameObject> hotSpots = new List<GameObject>();
+
     public AudioSource IntroOutroMusicSource;
     public AudioSource IntroOutroAudioSource;
 
-    //int to indicate which audio from list to play
+    //int indicates which audio from list to play
     public int audioNumber;
-    private bool introPlayed = false;
+    private bool introPlayed;
 
     public enum ItemChoice
     {
@@ -27,40 +27,46 @@ public class AudioManager : MonoBehaviour
         BECS,
         DRESS        
     }
-
     public ItemChoice itemChoice;
 
 	void Start ()
     {        
         audioNumber = 0;
-	}
+        introPlayed = false;
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
-
-        //Debug.Log("IncrementAudio: " + audioNumber);
-        //Debug.Log("selected audio count: " + selectedAudio.Count);
-
-
-        //select an Item, Play first Audio for Item
-
         if (introPlayed == false)
         {
-            IntroOutroMusicSource.volume = 1f;
+            //Plays intro music
             if(!IntroOutroMusicSource.isPlaying)
+            {
+                IntroOutroMusicSource.volume = 1f;
                 IntroOutroMusicSource.Play();
+            }
+
+            //Selects clothing item and gets appropriate audio for hotspots            
             ItemSelect();
+
+            //Plays intro clip, sets introPlayed to true and increments audio number
+            if (itemChoice != ItemChoice.NONE)
+                PlayFirstClip();
         }
-        if(IntroOutroAudioSource.isPlaying == false && introPlayed == true)
+        //if intro clip has stopped and first clip has played
+        else if(IntroOutroAudioSource.isPlaying == false && introPlayed == true)
         {
             IntroOutroMusicSource.Stop();
 
+            //activate hotspots when required
             if (audioNumber < selectedAudio.Count)
-                ActivateHotSpot();
-            else
             {
-                //return everything to start
+                ActivateHotSpot();
+            }
+            //if no more audio clips to play restart
+            else
+            {                
                 introPlayed = false;
                 audioNumber = 0;
                 itemChoice = ItemChoice.NONE;
@@ -86,8 +92,6 @@ public class AudioManager : MonoBehaviour
                 if (selectedAudio != dressAudio)
                 {
                     selectedAudio = dressAudio;
-                    //audioNumber = 0;
-                    PlayFirstClip();
                 }
                 break;
 
@@ -95,8 +99,6 @@ public class AudioManager : MonoBehaviour
                 if (selectedAudio != becsAudio)
                 {
                     selectedAudio = becsAudio;
-                    //audioNumber = 0;
-                    PlayFirstClip();
                 }
                 break;
         }
@@ -114,7 +116,7 @@ public class AudioManager : MonoBehaviour
     //all hotspots are initialised at start unactive
     //this activates them one at a time
     private void ActivateHotSpot()
-    {                
+    {           
         hotSpots[audioNumber - 1].SetActive(true);
     }    
 
