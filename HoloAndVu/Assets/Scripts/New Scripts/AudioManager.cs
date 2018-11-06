@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource IntroOutroAudioSource;
 
     //int to indicate which audio from list to play
-    int audioNumber;
+    public int audioNumber;
     private bool introPlayed = false;
 
     public enum ItemChoice
@@ -38,9 +38,14 @@ public class AudioManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+
+        //Debug.Log("IncrementAudio: " + audioNumber);
+        //Debug.Log("selected audio count: " + selectedAudio.Count);
+
+
         //select an Item, Play first Audio for Item
 
-        if(introPlayed == false)
+        if (introPlayed == false)
         {
             IntroOutroMusicSource.volume = 1f;
             if(!IntroOutroMusicSource.isPlaying)

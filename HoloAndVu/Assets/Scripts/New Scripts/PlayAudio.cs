@@ -41,6 +41,7 @@ public class PlayAudio : MonoBehaviour
     {    
         if (other.tag == "MainCamera" && soundPlayed == false && m_AudioManager.itemChoice != AudioManager.ItemChoice.NONE)
         {
+            incrementAudio = true;
             m_AudioSource.clip = m_AudioManager.GetSelectedAudio();
             musicSource.volume = loweredMusicVolume;
             soundPlayed = true;
@@ -60,6 +61,7 @@ public class PlayAudio : MonoBehaviour
                 incrementAudio = false;
                 musicSource.volume = 1f;
                 soundPlayed = false;
+                m_AudioSource.clip = null;
 
             }
 

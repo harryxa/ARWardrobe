@@ -1,25 +1,52 @@
 fileFormatVersion: 2
-guid: b9febee2cf7b37e4d88e8843eb8f4a76
+guid: 470857cea743d9d45bb10d4ed7b966f5
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Untitled_1_Embers_geo
-    100004: Untitled_1_Light_geo
-    100006: Untitled_1_Paper_geo
-    400000: //RootNode
-    400002: Untitled_1_Embers_geo
-    400004: Untitled_1_Light_geo
-    400006: Untitled_1_Paper_geo
-    2300000: Untitled_1_Embers_geo
-    2300002: Untitled_1_Light_geo
-    2300004: Untitled_1_Paper_geo
-    3300000: Untitled_1_Embers_geo
-    3300002: Untitled_1_Light_geo
-    3300004: Untitled_1_Paper_geo
-    4300000: Untitled_1_Light_geo
-    4300002: Untitled_1_Paper_geo
-    4300004: Untitled_1_Embers_geo
+    100000: HomeViewpoint
+    100002: NewLayer0
+    100004: NewLayer0_0000
+    100006: NewLayer1
+    100008: NewLayer1_0000
+    100010: NewLayer2
+    100012: NewLayer2_0000
+    100014: NewLayer3
+    100016: NewLayer3_0000
+    100018: NewLayer4
+    100020: NewLayer4_0000
+    100022: //RootNode
+    100024: Root
+    400000: HomeViewpoint
+    400002: NewLayer0
+    400004: NewLayer0_0000
+    400006: NewLayer1
+    400008: NewLayer1_0000
+    400010: NewLayer2
+    400012: NewLayer2_0000
+    400014: NewLayer3
+    400016: NewLayer3_0000
+    400018: NewLayer4
+    400020: NewLayer4_0000
+    400022: //RootNode
+    400024: Root
+    2100000: No Name
+    2300000: NewLayer0_0000
+    2300002: NewLayer1_0000
+    2300004: NewLayer2_0000
+    2300006: NewLayer3_0000
+    2300008: NewLayer4_0000
+    3300000: NewLayer0_0000
+    3300002: NewLayer1_0000
+    3300004: NewLayer2_0000
+    3300006: NewLayer3_0000
+    3300008: NewLayer4_0000
+    4300000: NewLayer4_0000
+    4300002: NewLayer3_0000
+    4300004: NewLayer2_0000
+    4300006: NewLayer1_0000
+    4300008: NewLayer0_0000
+    7400000: anim_stack
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -60,7 +87,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
@@ -94,7 +121,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
