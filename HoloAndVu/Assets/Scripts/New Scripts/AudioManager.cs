@@ -5,11 +5,21 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     //list of all audio for selected item
-    public List<AudioClip> dressAudio = new List<AudioClip>();
     public List<AudioClip> becsAudio = new List<AudioClip>();
+    public List<AudioClip> micahAudio = new List<AudioClip>();
+    public List<AudioClip> jamieAudio = new List<AudioClip>();
     public List<AudioClip> selectedAudio = new List<AudioClip>();
 
-    public List<AudioClip> musicAudio = new List<AudioClip>();
+
+
+    public List<AudioClip> becsMusic = new List<AudioClip>();
+    public List<AudioClip> micahsMusic = new List<AudioClip>();
+    public List<AudioClip> jamiesMusic = new List<AudioClip>();
+    public List<AudioClip> IntroOutroMusic = new List<AudioClip>();
+    public List<AudioClip> selectedMusic = new List<AudioClip>();
+
+
+    public TextMesh DebugDisplay;
 
     //list of hotspots in the scene, when hotspot inits it adds to list
     public List<GameObject> hotSpots = new List<GameObject>();
@@ -25,7 +35,9 @@ public class AudioManager : MonoBehaviour
     {
         NONE,
         BECS,
-        DRESS        
+        MICAH,
+        JAMIE,
+        FINISH
     }
     public ItemChoice itemChoice;
 
@@ -43,6 +55,7 @@ public class AudioManager : MonoBehaviour
             //Plays intro music
             if(!IntroOutroMusicSource.isPlaying)
             {
+                IntroOutroMusicSource.clip = IntroOutroMusic[0];
                 IntroOutroMusicSource.volume = 1f;
                 IntroOutroMusicSource.Play();
             }
@@ -66,11 +79,16 @@ public class AudioManager : MonoBehaviour
             }
             //if no more audio clips to play restart
             else
-            {                
+            {
+                PlayOutro();
                 introPlayed = false;
                 audioNumber = 0;
                 itemChoice = ItemChoice.NONE;
                 selectedAudio = null;
+                selectedMusic = null;
+                
+                DebugDisplay = null;
+                              
                 for (int i = 0; i < hotSpots.Count; i++)
                 {
                     hotSpots[i].SetActive(false);
@@ -78,7 +96,6 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
-
 
     //selects appropriate audio for item selected
     private void ItemSelect()
@@ -88,17 +105,27 @@ public class AudioManager : MonoBehaviour
             case ItemChoice.NONE:
                 break;
 
-            case ItemChoice.DRESS:
-                if (selectedAudio != dressAudio)
-                {
-                    selectedAudio = dressAudio;
-                }
-                break;
-
             case ItemChoice.BECS:
                 if (selectedAudio != becsAudio)
                 {
                     selectedAudio = becsAudio;
+                    selectedMusic = becsMusic;
+                }
+                break;
+
+            case ItemChoice.MICAH:
+                if (selectedAudio != micahAudio)
+                {
+                    selectedAudio = micahAudio;
+                    selectedMusic = micahsMusic;
+                }
+                break;
+
+            case ItemChoice.JAMIE:
+                if (selectedAudio != jamieAudio)
+                {
+                    selectedAudio = jamieAudio;
+                    selectedMusic = jamiesMusic;
                 }
                 break;
         }
@@ -116,7 +143,7 @@ public class AudioManager : MonoBehaviour
     //all hotspots are initialised at start unactive
     //this activates them one at a time
     private void ActivateHotSpot()
-    {           
+    {
         hotSpots[audioNumber - 1].SetActive(true);
     }    
 
@@ -127,7 +154,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip GetSelectedMusicAudio()
     {
-        return musicAudio[audioNumber - 1];
+        return selectedMusic[audioNumber - 1];
     }
 
     //incremented when leaving a hotspot
@@ -139,5 +166,13 @@ public class AudioManager : MonoBehaviour
     public void AddToHotSpotList(GameObject hotspot)
     {
         hotSpots.Add(hotspot);
+    }
+
+    public void PlayOutro()
+    {
+        IntroOutroMusicSource.clip = IntroOutroMusic[1];
+        IntroOutroMusicSource.Play();
+        DebugDisplay.text = "Please retun the Headset.";
+
     }
 }

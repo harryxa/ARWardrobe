@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: ff76e20f204f1cc4bbfbdec081a7393c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: boy
+    100004: boy 1
+    100006: boy_0000
+    100008: dresses2
+    100010: dresses2_0000
+    100012: girl
+    100014: girl 1
+    100016: girl_0000
+    100018: hang-boy
+    100020: hang-boy_0000
+    100022: hang-girl
+    100024: hang-girl_0000
+    100026: rail
+    100028: Root
+    100030: shirt
+    100032: shirt_0000
+    400000: //RootNode
+    400002: boy
+    400004: boy 1
+    400006: boy_0000
+    400008: dresses2
+    400010: dresses2_0000
+    400012: girl
+    400014: girl 1
+    400016: girl_0000
+    400018: hang-boy
+    400020: hang-boy_0000
+    400022: hang-girl
+    400024: hang-girl_0000
+    400026: rail
+    400028: Root
+    400030: shirt
+    400032: shirt_0000
+    2100000: No Name
+    2300000: boy_0000
+    2300002: dresses2_0000
+    2300004: girl_0000
+    2300006: hang-boy_0000
+    2300008: hang-girl_0000
+    2300010: shirt_0000
+    3300000: boy_0000
+    3300002: dresses2_0000
+    3300004: girl_0000
+    3300006: hang-boy_0000
+    3300008: hang-girl_0000
+    3300010: shirt_0000
+    4300000: dresses2_0000
+    4300002: hang-girl_0000
+    4300004: girl_0000
+    4300006: shirt_0000
+    4300008: hang-boy_0000
+    4300010: boy_0000
+    7400000: anim_stack
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

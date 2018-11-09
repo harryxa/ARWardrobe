@@ -8,24 +8,28 @@ public class ItemSelecter : MonoBehaviour
     private AudioManager m_AudioManager;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         GameObjAudioManager = GameObject.FindGameObjectWithTag("AudioManager");
         m_AudioManager = GameObjAudioManager.GetComponent<AudioManager>();
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-        if(m_AudioManager.itemChoice == AudioManager.ItemChoice.NONE)
-        {
-            if (gameObject.tag == "Dress")
-            {
-                m_AudioManager.itemChoice = AudioManager.ItemChoice.DRESS;
-            }
-            else if (gameObject.tag == "Becs")
+        if (m_AudioManager.itemChoice == AudioManager.ItemChoice.NONE)
+        {            
+            if (gameObject.tag == "Becs")
             {
                 m_AudioManager.itemChoice = AudioManager.ItemChoice.BECS;
+            }
+            else if (gameObject.tag == "Micah")
+            {
+                m_AudioManager.itemChoice = AudioManager.ItemChoice.MICAH;
+            }
+            else if (gameObject.tag == "Jamie")
+            {
+                m_AudioManager.itemChoice = AudioManager.ItemChoice.JAMIE;
             }
         }
     }

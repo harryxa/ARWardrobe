@@ -8,7 +8,7 @@ public class PlayAudio : MonoBehaviour
     public AudioSource m_AudioSource;
     public AudioSource musicSource;
 
-    public float loweredMusicVolume;
+    private float loweredMusicVolume;
     private GameObject GameObjAudioManager;
     private AudioManager m_AudioManager;
 
@@ -19,6 +19,7 @@ public class PlayAudio : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        loweredMusicVolume = 0.3f;
         GameObjAudioManager = GameObject.FindGameObjectWithTag("AudioManager");
         m_AudioManager = GameObjAudioManager.GetComponent<AudioManager>();
         m_AudioManager.AddToHotSpotList(this.gameObject);
@@ -31,6 +32,19 @@ public class PlayAudio : MonoBehaviour
         {
             musicSource.clip = m_AudioManager.GetSelectedMusicAudio();
             musicSource.Play();
+        }
+
+        //dont stop spoken audio untill its finished
+        if(!m_AudioSource.isPlaying && soundPlayed == true)
+        {
+            m_AudioSource.clip = null;
+            soundPlayed = false;
+            gameObject.SetActive(false);
+
+            m_AudioManager.IncrementAudioNumber();// maybe put here, test..?
+            incrementAudio = false;
+            musicSource.volume = 1f;
+            musicSource.Stop();
         }
     }
 
@@ -56,15 +70,12 @@ public class PlayAudio : MonoBehaviour
         {
             if(incrementAudio == true)
             {               
-                m_AudioManager.IncrementAudioNumber();
-                incrementAudio = false;
-                musicSource.volume = 1f;
-                soundPlayed = false;
-                m_AudioSource.clip = null;
-
+                //m_AudioManager.IncrementAudioNumber();
+                //incrementAudio = false;
+                //musicSource.volume = 1f;
             }
 
-            musicSource.Stop();
+            //musicSource.Stop();
         }
     }
 }
